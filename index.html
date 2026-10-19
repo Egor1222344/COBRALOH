@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Унижение Кобры</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐍 Унижение Кобры</h1>
+  <p id="score">Унижений: 0</p>
+
+  <img id="cobra" src="assets/cobra-normal.png" alt="Кобра">
+  <p id="status"></p>
+
+  <div id="shop">
+    <button id="upgrade1">Купить "Насмешку" (+1 за клик) — 10</button>
+    <button id="upgrade2">Купить "Автокликер" (+1/сек) — 50</button>
+  </div>
+
+  <div id="skins">
+    <h3>Скины</h3>
+    <button data-skin="default">Обычный</button>
+    <button data-skin="furry">Фурри</button>
+    <button data-skin="femboy">Фембой</button>
+  </div>
+
+  <div id="leaderboard">
+    <h3>Таблица лидеров</h3>
+    <ol id="leaderboard-list"></ol>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
